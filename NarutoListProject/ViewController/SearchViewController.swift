@@ -16,6 +16,7 @@ class SearchViewController: UIViewController {
         super.viewDidLoad()
         self.title = "Search Page"
         
+        self.view.layer.contents = UIImage(named:"Naruto")?.cgImage
         //SeachTextField
         searchTxt.layer.borderWidth = 1
         searchTxt.layer.borderColor = UIColor.purple.cgColor
